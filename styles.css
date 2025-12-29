@@ -23,7 +23,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
     line-height: 1.6;
 }
 
@@ -31,11 +30,9 @@ body {
     width: 100%;
     max-width: 800px;
     max-height: 100vh;
-    aspect-ratio: 16 / 9;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .content {
@@ -50,23 +47,21 @@ body {
 .logo {
     max-width: clamp(250px, 40vw, 400px);
     width: 100%;
-    height: auto;
+    margin-bottom: -80px;
 }
 
 .coming-soon {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     color: #1E3A5F;
     font-weight: bold;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.04em;
     text-transform: uppercase;
-    margin: 0;
-    margin-top: 120px;
 }
 
 .hero-frame {
     max-width: 75%;
+    margin-top: 40px;
     width: 100%;
-    margin-top: 240px;
 }
 
 .hero-image {
